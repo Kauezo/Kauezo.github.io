@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SomWeb</title>
+    <style>
+        #grid{
+            display: grid;
+            padding: 20px;
+            background-color: white;
+            column-gap: 10px;
+            row-gap: 10px;
+            grid-template-columns: 200px 200px 200px 200px;
+            text-align: center;
+            
+        }
+
+        #grid > div {
+            border: 1px solid black; 
+           font-size: 15px;
+           padding: 15px;
+           margin: 10px;
+           transition: 2s;
+           
+        }
+
+        #grid > div:hover {
+            font-size: 17px;
+            margin:20px;
+            background-color: rgb(126, 126, 126);
+        }
+
+        #grid > div:nth-child(even){
+            background-color: red;
+        }
+
+        .header {
+            background-color: grey;
+            color: white;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <div id="grid">
+        
+        <div class="header">Data</div>
+        <div class="header">Cidade</div>
+        <div class="header">Local</div>
+        <div class="header">Artista</div>
+    
+
+        <div><p>25/03/2025</p></div>
+        <div><p>São Paulo</p></div>
+        <div><p>Espaço das Américas</p></div>
+        <div><p>Teto</p></div>
+
+        <div><p>26/03/2025</p></div>
+        <div><p>Rio de Janeiro</p></div>
+        <div><p>Fundição Progresso</p></div>
+        <div><p>Matue</p></div>
+
+        <div><p>27/03/2025</p></div>
+        <div><p>Salvador</p></div>
+        <div><p>Praia do Forte</p></div>
+        <div><p>Parede</p></div>
+
+        <div><p>28/03/2025</p></div>
+        <div><p>Belo Horizonte</p></div>
+        <div><p>Estádio Mineirão</p></div>
+        <div><p>Chão</p></div>
+
+        <div><p>29/03/2025</p></div>
+        <div><p>Curitiba</p></div>
+        <div><p>Teatro Positivo</p></div>
+        <div><p>Dj narru</p></div>
+    </div>
+</body>
+</html>
