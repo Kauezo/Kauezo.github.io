@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Discos e Lista de Gêneros</title>
+    <style>
+
+        body{
+            border: 1px solid black;
+        }
+
+        ul{
+            border: 1px solid black;
+        }
+
+        
+        ol {
+            width: 60%;
+            margin: 20px auto;
+            border: 1px solid black;
+        }
+        li {
+            font-weight: bold;
+            margin-top: 10px;
+            
+        }
+        ul li:hover {
+            color: rgb(0, 0, 0);
+        }
+
+        .Pop {
+            color: #FF6347; 
+            border-left: 5px solid #FF6347; 
+        }
+
+        .ele {
+            color: #4682B4; 
+            border-left: 5px solid #4682B4; 
+        }
+
+        .serta {
+            color: #32CD32; 
+            border-left: 5px solid #32CD32; 
+        }
+
+        .Rock {
+            color: #8B0000; 
+            border-left: 5px solid #8B0000;
+        }
+
+        ol > li:first-child {
+            font-size: 20px;
+        }
+
+        ol > li:last-child {
+            font-size: 20px;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Gêneros Musicais</h2>
+    <ol>
+        <li class="Pop">Pop
+            <ul>
+                <li>Ariana Grande</li>
+                <li>Adele</li>
+                <li>Bruno Mars</li>
+                <li>Michael Jackson</li>
+            </ul>
+        </li>
+        <li class="ele">Eletrônica
+            <ul>
+                <li>David Guetta</li>
+                <li>Daft Punk</li>
+                <li>Martin Garrix</li>
+                <li>Steve Aoki</li>
+            </ul>
+        </li>
+        <li class="serta">Sertanejo
+            <ul>
+                <li>Jorge e Mateus</li>
+                <li>Marília Mendonça</li>
+                <li>Zé Neto e Cristiano</li>
+                <li>Maiara e Maraísa</li>
+            </ul>
+        </li>
+        <li class="Rock">Rock
+            <ul>
+                <li>The Beatles</li>
+                <li>Nirvana</li>
+                <li>Metallica</li>
+                <li>Led Zeppelin</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
